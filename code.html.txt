@@ -1,0 +1,241 @@
+<html>
+<head>
+   <title>Online Shopping Center.</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+   <script src="assets/js/about.js"></script>
+</head>
+<body id="aboutp"> 
+   <h1> ABOUT US </h1>
+<h2 id="abt1"><b>HELLO GEORGEOUS!</h2>
+	 <video controls autoplay muted loop width="100%" height="500px">
+    <source src="assets/video/abt.mp4" type="video/mp4" id="vdo">
+</video> 
+<p id ="abc"><b>Welcome to Clothing Center,where fashion meets comfort and style! <br>
+ We're excited to introduce you to the world of clothing that's not only trendy but also designed with your comfort.</p>
+ <br>
+    
+<div class="divabout">
+	<h3>Who We Are?</h3> 
+	<img src="assets/image/who.jpeg" width="150px" height="150px" id="image">
+	<p class="para">We're not just a clothing store; we're a hub of style,creativity and camaraderie. 
+        Our journey began with a simple idea:to create a space where fashion isn't just about
+        clothes; it's about expressing yourself and feeling confident everyday.We believe that
+        what you wear is an extension of who you are.</i></p>
+     </div>
+
+        <br>
+        <br>
+        <div class="divabout">
+        <h3>What We Do?</h3>
+        <img src="assets/image/what we do.jpeg" width="150px" height="150px" id="image1">
+        <p class="para">We are passionate about providing you with a unique shopping experience that goes beyond the ordinay.Our experienced team
+        is here to assist you in finding the perfect outfit, ensuring you to leave with a smile.Whether you are trendsetter or someone who prefers timeless elegance,we have got something that speaks to you.</p>
+        </div>
+         <br>
+         <br>
+         <div class="divabout">
+        <h3>Our Vision?</h3>
+        <img src="assets/image/vision.jpeg" width="150px" height="150px" id="image2">
+        <p class="para">In our world,style knows no boundaries.Our vision is to redefine fashion as a tool for self expression and positive change.We strive to empower you with clothing that reflect your individuality.</i> </p>  <!-- button for the pop-up -->
+    <button id="btna" onclick="showPopup()">More....</button>
+       <!-- The pop-up content -->
+    <div id="popup" class="popup">
+        <h2 id="pop">"Where Fashion Meets Passion."</h2>
+        <p><i><!--"Dress to Impress,Shop to Express"--> "A journey born out of a deep love for fashion and a commitment to redefine the clothing industry.<b>In the Beginning</b>, it all started with a dream and a sewing machine in a small boutique.Back in year 2015, our teams embarked on a mission to create clothing that blended style with comfort effortlessly. They beleived that fashion should not only look good but feel good too."</i>.</p>
+        <button onclick="hidePopup()">Close</button>
+    </div>
+        </div>
+        <br>
+        <!--
+ 		<img src="assets/image/about1.jpg" alt="aboutus" id="imgg"> 
+ 		 <p id="journey">A journey born out of a deep love for fashion and a commitment to redefine the clothing industry.<b>In the Beginning</b>, it all started with a dream and a sewing machine in a small boutique.Back in year 2015, our teams embarked on a mission to create clothing that blended style with comfort effortlessly. They beleived that fashion should not only look good but feel good too.</p> -->
+         <img src="assets/image/abt.jpg" alt="aboutus" class="type1"> 
+        <p id="para1"d>Go ahead and pick your faves.</p>
+		<p id="para2">it's time to</p>
+ 		<p id="para3"><i>Rule the world</i></p>
+	    <p id="para4">ONE LOOK AT A TIME!</p>
+       <p id="para6"><i>"Dress to Impress,Shop to Express"</i></p>
+        <p id="para5">STAY STYLISH, <br>
+             CLOTHING CENTER</p>	
+        
+             
+	</body>
+	</html>
+
+]
+
+
+#aboutp{
+	background-color: lightsalmon;                                      /*#F4F1BB; */
+      }
+      
+       #abt1{
+			text-align: center;
+			color: chocolate;
+			font-size: 3vw;
+		}
+
+		p{  
+			text-align: center;
+			font-size: 16px;
+			line-height: 24px;
+			cursor: pointer;
+
+		} 
+		#btna{
+			background-color: wheat;
+			padding: 10px 20px;
+			border-radius: 25px;
+			display: block;
+			margin: auto ;
+			text-align: center;
+			cursor: pointer;
+
+		}
+		.type1{
+			width: 50%;
+			display: block;
+			margin: 0px auto;
+			border: 6px solid black;
+			cursor: pointer;
+		}
+		#image{
+			float: left;
+			margin-right:10px ;
+			margin-bottom:5px ;
+			border: solid black 1px;
+			padding: 2px;
+		}
+		#image1{
+			float: right;
+			margin-right:10px ;
+			margin-bottom:5px ;
+			border: solid black 1px;
+			padding: 2px;
+		}
+		#image2{
+			float: left;
+			margin-right:10px ;
+			margin-bottom:5px ;
+			border: solid black 1px;
+			padding: 2px;
+		}
+		h3{
+			text-align: center;
+			cursor: pointer;
+			color: navy blue;
+		    font-size: 22px;
+			font-weight: bold;
+			cursor: pointer;
+		}
+		.para{
+			cursor: pointer;
+			font-family: "Arial , "sans-serif, Helvetica;" ;
+			line-height: 29px;
+			cursor: pointer;
+			font-size: 1.25vw;
+		}
+		.divabout{
+			height: 200px ;
+			padding: 3px;
+		}
+		
+		#imgg{
+			 width: 800px;
+			display: block;
+			margin: 0px auto;
+			border: 6px solid black;
+			cursor: pointer;
+			height: 600px;
+			align-items:center;
+		}
+
+		#journey{
+			font-size: 18px;
+			font-weight: bold;
+			cursor: pointer;
+		
+		}
+
+		#abc{
+			font-size: 22px;
+			font-weight: bold;
+			cursor: pointer;
+			text-shadow: 3px 3px 5px purple;
+			position: sticky;
+        }
+
+		#para1{
+			text-align: center;
+			color: black;
+			font-size: 4vw;
+			cursor: pointer;
+		}
+		#para2{
+			text-align: center;
+			font-size: 2vw;
+			cursor: pointer;
+		}
+		#para3{
+			text-align: center;
+			font-size: 3vw;
+			font-family: "Brush Script";
+			color: red;
+			text-shadow: 3px 3px 5px blue;
+			font-weight: bolder;
+			cursor: pointer;
+		}
+		#para4{
+			text-align: center;
+			font-size: 4vw;
+			font-display: bold;
+			cursor: pointer;
+		}
+
+		#para5{
+			font-size: 2vw;
+			font-variant: small-caps;
+			cursor: pointer;
+			text-align: left;
+		}
+		#para6{
+			text-align: center;
+			font-size: 3.25vw;
+			font-family: "Brush Script";
+			color: purple;
+			text-shadow: 3px 3px 5px white;
+			font-weight: bolder;
+			cursor: pointer;
+		}
+
+		 /* Styles for the pop-up */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); 
+            background-color: lightpink;
+            padding: 20px;
+            border: 1px solid white;
+           /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+        }
+
+        #pop{
+             font-size: 2vw;
+             color: purple;
+        }
+
+
+
+function showPopup() {
+          var popup = document.getElementById('popup');
+            popup.style.display = 'block';
+          
+          };
+
+        // Function to hide the pop-up
+        function hidePopup() {
+            var popup = document.getElementById('popup');
+            popup.style.display = 'none';
+        }

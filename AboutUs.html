@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/about.css">
+
+  </head>
+  <body>
+    <div id="heading">
+        <h1 id="title">Never Stop Exploring</h1>
+        <h3 id="sub-title">Your Journey Your Story</h3>
+    </div>
+<section class="about">
+    <div class="content">
+      <img src="assets/images/intro.jpg">  
+      <div id="topic">
+        <h1 id="title1">Who We Are</h1>
+        <p class="intro">Travelia national Travel & Tours is dedicated to making travel simple. We are located in Bagbazar-31, Kathmandu providing different traveling benefits with packages to our  customers since 2014. is Travel Agency in Nepal, Founded by young professional in Management & Tourism Field. We have knowledge and experience with every Tour Operator, Trekking, Air Ticketing & Tourism in Nepal.</p> <p class ="intro"><span id="dots">...</span>
+          <span id="more"> Travelia is operated by a team of qualified professionals, who are well versed with the complexities of the Travel & Tourism trade. We give our best to bring fast, easy and reliable traveling service to our valued clients. Kindly feel free to contact us for any further queries or should you have any confusion.</span></p><br>
+        <button id="btn" onclick="myFunction()">Read More</button>
+        </div>
+      </div>
+    </div>
+
+</section> 
+<section class="reason">
+  <h1 id="title2">Why Choose Us?</h1>
+  
+  <div class="wrapper">
+    <div class="box">
+      <img class="icon" src="assets/images/money.png">
+      <h2 class="title3">Value Of Money</h2>
+      <p class="description">We provide you with clear details of the cost of your tour and other program so that you are fully aware of any extra expenses.</p>
+    </div>
+    <div class="box">
+     <img class="icon" src="assets/images/camera.jpg">
+     <h2 class="title3">Beautiful Places</h2>
+      <p class="description">We provide you with clear details of the cost of your tour and other program so that you are fully aware of any extra expenses.</p>
+    </div>
+    <div class="box">
+      <img class="icon"src="assets/images/booking.png">
+      <h2 class="title3">Fast Booking</h2>
+      <p class="description">We provide you with clear details of the cost of your tour and other program so that you are fully aware of any extra expenses.</p>
+    </div>
+ </div>
+</section> 
+
+<script type="text/javascript">
+   function myFunction()
+    {
+     var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+     var btnText = document.getElementById("btn");
+
+  if (dots.style.display === "none")
+   {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else 
+  {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
+
+  </body>
+</html>
